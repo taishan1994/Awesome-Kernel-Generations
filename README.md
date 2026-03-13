@@ -380,3 +380,5 @@ https://github.com/thunlp/TritonBench
 [Agent 时代如何开发 Kernel？开源项目 Skills 全面调研](https://zhuanlan.zhihu.com/p/2015824320404934847)
 
 [LLM4Kernel 工作阶段汇总（26年1月-2月）](https://zhuanlan.zhihu.com/p/2010295337953292542)
+
+[maxiaosong1124/ncu-cuda-profiling-skill: let coding agents use ncu skills analysis cuda program automatically!](https://github.com/maxiaosong1124/ncu-cuda-profiling-skill)
