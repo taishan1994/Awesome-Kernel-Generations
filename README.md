@@ -374,3 +374,9 @@ https://github.com/ScalingIntelligence/KernelBench
 https://github.com/thunlp/TritonBench
 
 业界公认的两大基准。提供 PyTorch 原生实现作为基线，评测指标为 `Pass@k`（能否在 K 次内生成编译通过且结果一致的代码）以及 **Speedup（相较于 PyTorch 的加速倍率）**
+
+# 其余资源
+
+[Agent 时代如何开发 Kernel？开源项目 Skills 全面调研](https://zhuanlan.zhihu.com/p/2015824320404934847)
+
+[LLM4Kernel 工作阶段汇总（26年1月-2月）](https://zhuanlan.zhihu.com/p/2010295337953292542)
