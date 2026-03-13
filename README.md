@@ -1,7 +1,7 @@
 # Awesome-Kernel-Generations
 LLM生成kernnel调研。目前已有一些使用LLM生成Kernels的综述：
 
-\- [kcxain/Awesome-LLM4Kernel](https://github.com/kcxain/Awesome-LLM4Kernel)
+[kcxain/Awesome-LLM4Kernel](https://github.com/kcxain/Awesome-LLM4Kernel)
 
 将LLM4kernels分为四大类：
 
@@ -10,9 +10,9 @@ LLM生成kernnel调研。目前已有一些使用LLM生成Kernels的综述：
 - Domain-specific Models
 - Agentic RL
 
-\- [flagosai/awesome-LLM-driven-kernel-generation]( https://github.com/flagosai/awesome-LLM-driven-kernel-generation)
+[flagosai/awesome-LLM-driven-kernel-generation]( https://github.com/flagosai/awesome-LLM-driven-kernel-generation)
 
-![image-20260313170255343](C:\Users\admin\Desktop\github\Awesome-Kernel-Generations\assets\image-20260313170255343.png)
+![image-20260313170255343](assets/image-20260313170255343.png)
 
 目前正好也在调研LLM生成Kernels的相关工作，做一些补充。
 
@@ -369,4 +369,4 @@ https://github.com/ScalingIntelligence/KernelBench
 
 https://github.com/thunlp/TritonBench
 
-业界公认的两大基准。提供 PyTorch 原生实现作为基线，评测指标为 `Pass@k`（能否在 K 次内生成编译通过且结果一致的代码）以及 **Speedup（相较于 PyTorch 的加速倍率）**。
+业界公认的两大基准。提供 PyTorch 原生实现作为基线，评测指标为 `Pass@k`（能否在 K 次内生成编译通过且结果一致的代码）以及 **Speedup（相较于 PyTorch 的加速倍率）**
