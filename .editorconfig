@@ -1,0 +1,14 @@
+# EditorConfig helps maintain consistent coding styles for multiple developers working on the same project.
+# EditorConfig is supported by many popular editors including Visual Studio Code, Sublime Text, and Atom.
+
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+max_line_length = 100
