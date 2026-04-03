@@ -147,13 +147,15 @@ https://arxiv.org/pdf/2603.17204
 
 - **背景：** 在现代芯片设计中，寄存器传输级（RTL）代码的优化对于提升功耗、性能和面积（PPA）至关重要。然而，像流水线（pipelining）和时钟门控（clock gating）这样的优化通常需要深厚的手工调优经验和领域知识，既耗时又容易出错。
 - **挑战：** 现有的基于大语言模型（LLM）的方法大多关注语法生成或简单的启发式搜索，缺乏对设计意图的显式推理能力，且难以在保证功能正确性的同时有效优化PPA指标。此外，缺乏专门用于RTL优化的基准数据集。
-  - 
+
+
 
 **论文提出了两项主要贡献：**
 
 1. **RTLOPT 基准数据集：** 一个包含120个Verilog代码三元组（未优化代码、优化代码、测试平台）的数据集，专门针对流水线和时钟门控优化，支持功能验证和定量的PPA评估。
 2. **CODMAS 框架：** 一个名为“通过辩证多智能体系统进行协作优化”（Collaborative Optimization via a Dialectic Multi-Agent System）的多智能体框架。
-   1. 
+
+
 
 **CODMAS 模仿“结对编程”和“橡皮鸭调试法”，通过四个专门的智能体形成闭环反馈系统**：
 
@@ -163,7 +165,6 @@ https://arxiv.org/pdf/2603.17204
 - **执行智能体（Executor Agents）：**
   - **Domain-Specific Coding Agent (DCA)：** 负责代码生成。它结合领域知识（如数据流图）和上述智能体的计划，生成架构感知的Verilog代码。
   - **Code Evaluation Agent (CEA)：** 负责确定性评估。使用开源EDA工具（如Icarus Verilog, Yosys）检查语法、功能等价性以及PPA指标，并提供详细的反馈报告。
-    - 
 
 **研究者在多个专有（GPT-4o, GPT-3.5-turbo）和开源（Llama-3, DeepSeek-v2.5等）模型上进行了评估：**
 
